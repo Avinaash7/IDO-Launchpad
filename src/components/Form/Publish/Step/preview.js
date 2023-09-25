@@ -179,6 +179,8 @@ export default function Preview() {
           TokenLockerFactoryAddress,
           tokenURI,
           {
+            gasPrice: 2500000000,
+            gasLimit: 233123,
             from: account,
           },
         );
